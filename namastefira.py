@@ -15,7 +15,7 @@ logo=(f"""{E}==========Fira-Coin-Scraper=========
 {E}====================================""")
 print(logo)
 def Fira(id,user,firauser):
- url = "https://dashboard.heroku.com/apps/namastefirapy/deploy/heroku-git/"
+ url = "https://dashboard.heroku.com/apps/namastefirapy/deploy/"
  data = {'inscoo':'Cookie: mid=YgAyMAABAAHu2kbxOf9R0zMuwzYZ; ig_did=EEE996AA-EE36-4B42-A169-BB6A52475851; ig_nrcb=1; csrftoken=52DjRg73fRnpT9q83QapXoptVIYskqaS; ds_user_id=50696117930; sessionid=50666617930%3AYyFIPIO3axBfc3%3A9; shbid="10025\05450696117930\0541675716033:01f78e7ae2425f66393adf2fdcf5f80bb0b30562ad49be07603b84932c59afaf18ec2b45"; shbts="1644180033\05450696117930\0541675716033:01f70c59782e88915e2334975f16ea1bc95ccac787914aa9246fc370815729b092c5ffa0"; rur="PRN\05450696117930\0541675716033:01f7536b4cf1ca3b6c9e5b5c56a347dab161e4226f10aa97322ec08d535e3c3b073707f6"""""',
  'pkx':id,
  'uname':firauser,
